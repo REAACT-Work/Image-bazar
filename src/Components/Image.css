@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(60deg,#7dbda6, #040D12);
+}
+
+.head{
+    background-image: linear-gradient(180deg, #183D3D, #5C8374);
+    position: sticky;
+}
+.head1:hover{
+    background-image: linear-gradient(40deg, #5C8374, #183D3D);
+}
+
+.inputtag{
+    width: 85%;
+}
+button{
+    width: 7%;
+    height: 20% !important;
+}
+.paro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px) {
+    .inputtag {
+      width: fit-content;
+      height: 35px;
+      padding-left: 0px !important;
+      
+    }
+    button{
+        align-items: center;
+        width: 100%;
+        padding-top: 100px !important;
+        font-size: 8px;
+    }
+    h1{
+        font-size: 20px;
+       padding-left: 10%;
+    }
+    .head{
+        font-size: 8px;
+        padding-left: 20%;
+        
+    }
+    .head1:hover{
+        background-image: linear-gradient(40deg, #6B240C, #994D1C);
+    }
+   
+  }
