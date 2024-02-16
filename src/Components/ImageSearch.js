@@ -35,15 +35,15 @@ const ImageSearch = ({setImageList}) => {
   }
 
   return (
-    <div>
+    <div className='image-container'>
       <form onSubmit={handleSearch}>
         <input
           type="text"
           placeholder="Search image that you are looking for...."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-        className='inputtag mt-5 mx-5  p-2 rounded-lg'/>
-        <button className='p-2 btn-md btn-dark shadow rounded' type="submit">Search</button>
+        className='inputtag mt-5 px-5  p-2  shadow'/>
+        <button className='p-2 btn-md btn-secondary shadow rounded' type="submit">Search</button>
       </form>
     </div>
   )
