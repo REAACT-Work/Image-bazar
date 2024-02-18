@@ -19,9 +19,9 @@ const ImageGallery = ({ imageList }) => {
           <img
             src={item.urls.small_s3}
             alt={item.alt_description}
-            className="image_style pt-5 col-16 mx-2 rounded"
+            className="image_style  col-16 mx-2 rounded"
           />
-          <button onClick={() => handleDownload(item.urls.full)} className=" mt-2 text-primary  rounded-circle border">
+          <button onClick={() => handleDownload(item.urls.full)} className=" inputbutton">
            download
           </button>
         </div>

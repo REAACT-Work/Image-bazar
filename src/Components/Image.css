@@ -3,41 +3,89 @@
     margin: 0px;
     
 }
-body{
-    background-image: url("https://images.pexels.com/photos/3611882/pexels-photo-3611882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+/* body{
+    background-image:
     
+} */
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .head{
     background-image: linear-gradient(180deg, #B784B7, #E493B3);
-    position: sticky;
+    padding: 75px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.head1{
-    border: none;
-    background-image: url('https://images.pexels.com/photos/943905/pexels-photo-943905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+.head h1{
+    font-size: 45px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.head1:hover{
-    border: none;
-    background-image: url('https://images.pexels.com/photos/1668928/pexels-photo-1668928.jpeg?auto=compress&cs=tinysrgb&w=600');
+.navbar{
+    background-color: white;
+    opacity: 1;
 }
+.navbar-brand{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form p{
+    padding-left: 30px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+form p:hover{
+    color: cadetblue;
+}
+
+.head1{
+    border: none;
+    height: 400px;
+    background-image: url('https://images.pexels.com/photos/1182338/pexels-photo-1182338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    opacity: 4;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
 
 
 .inputtag{
-    width: 85rem;
-    margin: 10px !important;
-    background-color: transparent;
+    width: 40rem;
+    margin: 8px !important;
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+.inputbutton{
+    padding: 5px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: black;
     color: white;
+    border-radius: 10px;
+
+}
+.inputbutton:hover{
+    background-color: rgb(39, 31, 31);
+    color: cadetblue;
 }
 
 button{
-    width: 8%;
+    width: 100px !important;
     height: 20% !important;
 }
 .paro{
+    padding-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +95,17 @@ button{
 
 
 .image_style{
-    border-radius: 20px;
+    margin-left: 50px;
+    border-radius: 20px !important;
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+}
+.image_style:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    transform: scale(0.9);
+    transition: 0.5s;
+
 }
 
 
