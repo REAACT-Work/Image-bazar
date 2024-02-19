@@ -15,6 +15,7 @@
     padding-bottom: 60px;
 }
 
+
 .head{
     background-image: linear-gradient(180deg, #B784B7, #E493B3);
     padding: 75px;
@@ -26,6 +27,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 .navbar{
     background-color: white;
     opacity: 1;
@@ -36,13 +38,19 @@
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.navbar-brand:hover{
+    color: black;
+}
 form p{
     padding-left: 30px;
     font-size: 15px;
     padding-top: 10px;
 }
+form h1{
+    display: none;
+}
 form p:hover{
-    color: cadetblue;
+    color: rgb(63, 115, 57);
 }
 
 .head1{
@@ -70,19 +78,25 @@ form p:hover{
     border: none;
     margin-top: 20px;
     margin-bottom: 40px;
-    background-color: black;
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1B2828, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1B2828, #2A544D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     border-radius: 10px;
+    
 
 }
 .inputbutton:hover{
-    background-color: rgb(39, 31, 31);
-    color: cadetblue;
+    background-color: rgb(63, 115, 57);
+    color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+
 }
 
 button{
     width: 100px !important;
     height: 20% !important;
+    border-radius: 10px;
 }
 .paro{
     padding-top: 60px;
@@ -104,7 +118,7 @@ button{
 .image_style:hover{
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
     transform: scale(0.9);
-    transition: 0.5s;
+    transition: ease-in-out 0.5s;
 
 }
 
@@ -114,24 +128,32 @@ button{
         padding: 0px;
          margin: 0px;
     }
+    form p{
+        display: none;
+    }
+    .navbar-brand{
+        font-size: 15px;
+    }
     .head h1,p{
          display: flex;
          justify-content: center;
          
     }
+    form h1{
+        display: block;
+    }
     .head1{
         position: sticky;
     }
     .image-container input{
-         width: 72%;
+         width: 65%;
          height: 100%;
  
     }
     .image-container button{
-         width: 70px;
-         height: 100%;
-         padding: 0px;
-         margin: 0px;
+         width: 65px !important;
+         height: 80%;
+         font-size: 15px;
     }
     .image_style{
         width: 350px;

@@ -22,7 +22,7 @@ const ImageGallery = ({ imageList }) => {
             className="image_style  col-16 mx-2 rounded"
           />
           <button onClick={() => handleDownload(item.urls.full)} className=" inputbutton">
-           download
+           Download
           </button>
         </div>
       ))}

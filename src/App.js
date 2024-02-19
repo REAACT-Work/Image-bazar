@@ -7,13 +7,14 @@ const App = () => {
 
   return (
     <div>
-      <nav class="navbar  bg-body-tertiary sticky-top">
+      <nav class="navbar   bg-body-tertiary sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand">SnapVerse</a>
           <form class="d-flex">
             <p>Home</p>
             <p>Explore</p>
             <p>More</p>
+            <h1 className='fs-2 '>🪶</h1>
             </form>
             </div>
             </nav>
