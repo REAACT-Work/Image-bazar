@@ -35,7 +35,7 @@ const ImageSearch = ({setImageList}) => {
   }
 
   return (
-    <div className='image-container sticky-top '>
+    <div className='image-container  '>
       <form onSubmit={handleSearch}>
         <input
           type="text"

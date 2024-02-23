@@ -56,10 +56,10 @@ form p:hover{
 .head1{
     border: none;
     height: 400px;
-    background-image: url('https://images.pexels.com/photos/1182338/pexels-photo-1182338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('https://images.pexels.com/photos/847402/pexels-photo-847402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     opacity: 4;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -79,8 +79,8 @@ form p:hover{
     margin-top: 20px;
     margin-bottom: 40px;
     background: #44A08D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #1B2828, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #1B2828, #2A544D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to left, #1E100D, #4F3439);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1E100D, #4F3439); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     border-radius: 10px;
     
